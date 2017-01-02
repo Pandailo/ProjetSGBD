@@ -23,7 +23,7 @@ public class Test
 				}
 			}
 			else
-				System.out.println("Merci de récoupper vos relations.");
+				System.out.println("Merci de récouper vos relations.");
 		}
 		
 	}
