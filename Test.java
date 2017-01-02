@@ -7,7 +7,7 @@ public class Test
 	{
 		int nbbuffers;
 		int taillebuff;
-		String[nbbuffers] tab_buff;
+		String[] tab_buff=new String[nbbuffers];
 		public Central_mem(int n,int t)
 		{
 			nbbuffers=n;
@@ -23,7 +23,7 @@ public class Test
 				}
 			}
 			else
-				System.out.println("Merci de récouper vos relations.");
+				System.out.println("Merci de recouper vos relations.");
 		}
 		
 	}
@@ -33,7 +33,8 @@ public class Test
 		String pw;
 		Connection connect;
 		String add;
-		/*&quot;jdbc:oracle:thin:@butor:1521:ensb2016, Login, passwd);
+		/*
+		"jdbc:oracle:thin:@butor:1521:ensb2016, Login, passwd");
 		Connection de l’extérieur : @ufrsciencestech.u-bourgogne.fr :25561
 		*/
 		public BD(String uname,String pwd,String addr)
