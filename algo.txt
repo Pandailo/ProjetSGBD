@@ -1,0 +1,9 @@
+décomposer les relations R et S en Ri...n et Si...m par la même fonction de hashage
+Charger nb-2 Ri en mémoire centrale avec nb=nb de buffers
+charger S1 dans le nb buffer
+//Un buffer de rab si dépassement
+Faire la jointure sur ri..rnb-2 et s1
+//Stocker le res ? L'écrire ?
+charger S2 et recommencer à 4
+Recommencer pour Si...Sm
+Ecrire le res. 
