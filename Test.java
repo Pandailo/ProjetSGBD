@@ -7,10 +7,23 @@ public class Test
 	{
 		int nbbuffers;
 		int taillebuff;
+		String[nbbuffers] tab_buff;
 		public Central_mem(int n,int t)
 		{
 			nbbuffers=n;
 			taillebuff=t;
+		}
+		void charger(String[] Rel)
+		{
+			if(Rel.length<nbbuffers-2)
+			{
+				for(int i=0;i<Rel.length;i++)
+				{
+					tab_buff[i]=Rel[i];	
+				}
+			}
+			else
+				System.out.println("Merci de récoupper vos relations.");
 		}
 		
 	}
