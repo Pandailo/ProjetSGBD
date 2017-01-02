@@ -86,13 +86,15 @@ public class Test
 	} 
 		
 	}
+
 	public static void main(String[] args)
 	{
-		Test t=new Test();
+		Test t;
+		//Test t=new Test();
 		BD database;
 		if(args[0]!="fac")
 		{
-			database=new t.BD("yv965015","yv965015","jdbc:oracle:thin:@ufrsciencestech.u-bourgogne.fr:25561");
+			database=t.new BD("yv965015","yv965015","jdbc:oracle:thin:@ufrsciencestech.u-bourgogne.fr:25561");
 		}
 		else
 			database=new t.BD("yv965015","yv965015","jdbc:oracle:thin:@butor:1521:ensb2016");
